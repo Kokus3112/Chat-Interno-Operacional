@@ -1,15 +1,15 @@
 # Chat Interno Operacional
 
-Chat simples em rede local para comunicacao entre setores de uma operacao de restaurante/delivery.
+Chat simples em rede local para comunicação entre setores de uma operação de restaurante/delivery.
 
-O projeto foi criado para reduzir deslocamentos entre andares e agilizar comunicacoes entre caixa/salao, delivery e cozinha, em um ambiente onde o uso de celulares nao era permitido durante a operacao.
+O projeto foi criado para reduzir deslocamentos entre andares e agilizar comunicações entre caixa/salão, delivery e cozinha, em um ambiente onde o uso de celulares não era permitido durante a operação.
 
 ## Casos de uso
 
 - Confirmar preparo ou retirada de pedidos.
 - Solicitar produtos que ficam em outro setor, como sobremesas e sucos.
 - Avisar status de pedidos do delivery.
-- Reduzir idas e vindas entre salao, caixa e cozinha.
+- Reduzir idas e vindas entre salão, caixa e cozinha.
 
 ## Stack
 
@@ -36,8 +36,8 @@ set CHAT_PORT=5000
 python delivery.py
 ```
 
-Opcionalmente, rode `python escritorio.py` para o terminal do escritorio.
+Opcionalmente, rode `python escritorio.py` para o terminal do escritório.
 
 ## Privacidade
 
-O IP real da rede interna nao fica no codigo. Historicos locais de conversa tambem ficam fora do repositorio.
+O IP real da rede interna não fica no código. Históricos locais de conversa também ficam fora do repositório.
