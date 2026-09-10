@@ -1,0 +1,26 @@
+{
+  "server_host": "127.0.0.1",
+  "server_port": 5000,
+  "reconnect_seconds": 5,
+  "message_limit": 8192,
+  "clients": {
+    "SALAO": {
+      "title": "Chat Interno - Salão",
+      "default_destination": "DELIVERY",
+      "destinations": ["DELIVERY", "ESCRITORIO"],
+      "history_file": "historico_salao.txt"
+    },
+    "DELIVERY": {
+      "title": "Chat Interno - Delivery",
+      "default_destination": "SALAO",
+      "destinations": ["SALAO", "ESCRITORIO"],
+      "history_file": "historico_delivery.txt"
+    },
+    "ESCRITORIO": {
+      "title": "Chat Interno - Escritório",
+      "default_destination": "SALAO",
+      "destinations": ["SALAO", "DELIVERY"],
+      "history_file": "historico_escritorio.txt"
+    }
+  }
+}

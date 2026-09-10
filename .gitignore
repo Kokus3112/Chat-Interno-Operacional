@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .env
+chat_config.json
 historico_*.txt
 build/
 dist/
